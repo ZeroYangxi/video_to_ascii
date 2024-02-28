@@ -1,25 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
-#sample {
+video {
   display: block;
-  margin: 20px;
-}
-
-p,
-h1,
-img {
-  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 h1 {
   font-size: 2rem;
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 html,
@@ -33,6 +32,6 @@ body {
   line-height: 10pt;
 }
 
-canvas {
-  display: block;
+div {
+  margin: 2rem;
 }
