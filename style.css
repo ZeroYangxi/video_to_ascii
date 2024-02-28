@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sample {
+  display: block;
+  margin: 20px;
+}
+
+p,
+h1,
+img {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+p {
+  font-size: 1rem;
+}
+
 html,
 body {
   margin: 0;

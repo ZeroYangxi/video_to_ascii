@@ -1,4 +1,4 @@
-const density = "Ñ@#W$9876543210?!abc;:+=,._        ";
+const density = "Ñ@#W$9876543210?!abc;:+=,.._            ";
 
 // ;
 // "     _.,=+:;cba!?0123456789$W#@Ñ";
@@ -9,7 +9,8 @@ let asciiDiv;
 function setup() {
   noCanvas();
   video = createCapture(VIDEO);
-  video.size(100, 48);
+  console.log(video);
+  video.size(50, 30);
   asciiDiv = createDiv();
 }
 
